@@ -1,0 +1,118 @@
+.content-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 132px;
+  margin-bottom: 100px;
+}
+.content-text {
+  text-align: center;
+}
+.content-text > h2 {
+  color: #2f0955;
+}
+.content-descripcion {
+  font-size: 16px;
+  width: 629px;
+}
+hr {
+  height: 3px;
+  width: 15%;
+  background-color: #fbc508;
+  border: none;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 122px;
+  margin-bottom: 20px;
+}
+.card {
+  margin-right: 30px;
+  width: 287px;
+  height: 290px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 41px -14px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.card-img {
+  top: -80px;
+  position: absolute;
+}
+.card-body {
+  width: 221px;
+}
+.card-title {
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.card-descripcion {
+  font-size: 16px;
+}
+.coin {
+  top: -120px;
+  position: absolute;
+}
+.content-oportunidad {
+  display: flex;
+}
+.oportunidad {
+  text-align: left;
+  margin-top: 100px;
+}
+.oportunidad-title{
+    color: #2f0955;
+    width: 328px;
+
+}
+.caroline-text {
+  font-size: 16px;
+  color: #7000ff;
+}
+.caroline-descripcion{
+    width: 498px;
+    font-size: 16px;
+    color: #363636;
+    font-weight: 400;
+}
+.img-banner2{
+    width: 470px;
+}
+.img-oportunidad {
+  width: 460px;
+}
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+  }
+  .content-descripcion {
+    font-size: 16px;
+    width: 341px;
+  }
+  .card {
+    margin-top: 50px;
+  }
+  .content-oportunidad{
+    flex-direction: column;
+  }
+  .oportunidad{
+    width: 312px;
+    padding-left: 31px;
+  }
+  .caroline-descripcion{
+    width: 311px;
+  }.img-banner2{
+    width: 375px;
+  }
+  .img-oportunidad{
+    width: 375px;
+  }
+}

@@ -1,0 +1,59 @@
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contacto-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2b0955;
+}
+.contacto hr {
+  height: 3px;
+  width: 50%;
+  background-color: #fbc508;
+  border: none;
+}
+.contacto-content {
+  width: 968px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contacto-content-text {
+  width: 384px;
+}
+.formulario {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.formulario label {
+  color: #7000ff;
+  font-weight: 500;
+}
+.input-contacto {
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ae97cb;
+}
+.box-button {
+  display: flex;
+  justify-content: end;
+}
+@media (max-width: 768px) {
+  .contacto-content {
+    flex-direction: column;
+    width: 378px;
+
+  }
+  .input-contacto {
+    width: 311px;
+  }
+  .contacto-content-text{
+    width: 311px;
+  }
+}

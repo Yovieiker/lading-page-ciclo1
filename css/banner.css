@@ -1,0 +1,89 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner {
+  background-color: #2b0955;
+
+  height: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.frases {
+  font-size: 41px;
+  width: 491px;
+  line-height: 120.5%;
+  font-weight: 800;
+  color: #fff;
+}
+
+.descripcion {
+  font-size: 18px;
+  letter-spacing: -2%;
+  width: 454px;
+  color: #fff;
+}
+
+.img-banner-1 {
+  width: 390px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  background-color: #2b0955;
+}
+
+.img-1 {
+  width: 288px;
+}
+
+.btn {
+  width: 186px;
+  height: 46px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.btn-yellow {
+  border: none;
+  background-color: #fbc508;
+  color: #2b0955;
+}
+
+.btn-white {
+  border: 1px solid #fff;
+  background-color: #2b0955;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .container {
+    height: 100%;
+  }
+  .banner {
+    flex-direction: column;
+    height: 971px;
+    padding-left: 30px;
+
+  }
+  .frases {
+    width: 327px;
+  }
+  .descripcion {
+    width: 327px;
+  }
+  .img-banner-1 {
+    width: 300px;
+    height: 370px;
+  }
+  .img-1 {
+    width: 248px;
+  }
+}
