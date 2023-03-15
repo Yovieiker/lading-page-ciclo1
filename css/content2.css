@@ -8,6 +8,7 @@
 }
 .content-text {
   text-align: center;
+  margin-bottom:90px
 }
 .content-text > h2 {
   color: #2f0955;
@@ -17,10 +18,12 @@
   width: 629px;
 }
 hr {
-  height: 3px;
-  width: 15%;
-  background-color: #fbc508;
-  border: none;
+  height: 3px!important;
+  width: 15%!important;
+  background-color: #fbc508!important;
+  border: none!important;
+  margin: 0 auto!important;
+  opacity: 1!important;
 }
 .card-container {
   display: flex;
@@ -29,8 +32,8 @@ hr {
   margin-top: 122px;
   margin-bottom: 20px;
 }
-.card {
-  margin-right: 30px;
+.card-objetivo {
+  margin-left: 130px;
   width: 287px;
   height: 290px;
   border-radius: 20px;
@@ -41,11 +44,11 @@ hr {
   justify-content: center;
   position: relative;
 }
-.card-img {
+.card-img-objetivo {
   top: -80px;
   position: absolute;
 }
-.card-body {
+.card-cuerpo {
   width: 221px;
 }
 .card-title {
@@ -89,6 +92,9 @@ hr {
 .img-oportunidad {
   width: 460px;
 }
+.carousel-inner{
+  overflow: visible!important;
+}
 @media (max-width: 768px) {
   .card-container {
     flex-direction: column;
@@ -97,8 +103,9 @@ hr {
     font-size: 16px;
     width: 341px;
   }
-  .card {
+  .card-objetivo {
     margin-top: 50px;
+    margin-left: 0;
   }
   .content-oportunidad{
     flex-direction: column;
@@ -115,4 +122,40 @@ hr {
   .img-oportunidad{
     width: 375px;
   }
+}
+/*carousel*/
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item>div {
+      display: none;
+  }
+
+  .carousel-inner .carousel-item>div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
 }

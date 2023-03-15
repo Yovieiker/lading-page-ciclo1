@@ -11,10 +11,12 @@
   color: #2b0955;
 }
 .contacto hr {
-  height: 3px;
-  width: 50%;
-  background-color: #fbc508;
-  border: none;
+  height: 3px!important;
+  width: 50%!important;
+  background-color: #fbc508!important;
+  border: none!important;
+  margin: 0 auto!important;
+  opacity: 1!important;
 }
 .contacto-content {
   width: 968px;
